@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(26, 28, 40, 255);
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "a a b"
+    "c d e";
+  margin: 150px 300px 150px 350px;
+  gap: 16px;
+  width: 20%;
+  height: 50vh;
+}
+main div {
+  padding: 4.5em;
+  text-align: center;
+  font-size: large;
+}
+.div-a {
+  background-color: rgba(235, 80, 32, 255);
+  grid-area: a;
+  font-size: 20px;
+  width: 260px;
+}
+.div-b {
+  background-color: rgba(255, 164, 1, 255);
+  grid-area: b;
+  width: 50px;
+}
+.div-c {
+  background-color: rgba(5, 170, 66, 255);
+  grid-area: c;
+  font-size: 15px;
+  width: 180px;
+  height: 90px;
+}
+.div-d {
+  background-color: rgba(1, 174, 253, 255);
+  grid-area: d;
+  font-size: 11px;
+  height: 5px;
+}
+.div-e {
+  background-color: rgba(1, 174, 253, 255);
+  grid-area: e;
+  font-size: 11px;
+  height: 5px;
+}
+aside {
+  display: grid;
+  width: 311%;
+  grid-template-areas:
+    "d"
+    "e";
+  gap: 16px;
+}
