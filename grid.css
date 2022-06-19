@@ -48,7 +48,7 @@ main div {
 }
 aside {
   display: grid;
-  width: 315%;
+  width: 325%;
   grid-template-areas:
     "d"
     "e";
